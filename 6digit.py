@@ -4,7 +4,7 @@ import logging
 import logging.config
 import sys
 
-# log file setting
+# log file 
 logging.basicConfig(filename="6digit_pass.txt", filemode='w', format='%(message)s')
 
 for i in range(0, 1000000):
